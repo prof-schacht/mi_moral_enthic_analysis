@@ -1,0 +1,52 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Traceback (most recent call last):
+  File "/proj/Alignment/probing/train_prob_script.py", line 314, in <module>
+    main()
+  File "/proj/Alignment/probing/train_prob_script.py", line 291, in main
+    train_toxicity_probe(model, probe, train_loader, val_loader, device)
+  File "/proj/Alignment/probing/train_prob_script.py", line 143, in train_toxicity_probe
+    logits = probe(hidden_states, attention_mask)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/proj/Alignment/probing/train_prob_script.py", line 49, in forward
+    mask_expanded = attention_mask.unsqueeze(-1).expand(hidden_states.size())
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "/proj/Alignment/probing/train_prob_script.py", line 314, in <module>
+    main()
+  File "/proj/Alignment/probing/train_prob_script.py", line 291, in main
+    train_toxicity_probe(model, probe, train_loader, val_loader, device)
+  File "/proj/Alignment/probing/train_prob_script.py", line 143, in train_toxicity_probe
+    logits = probe(hidden_states, attention_mask)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/proj/Alignment/probing/train_prob_script.py", line 49, in forward
+    mask_expanded = attention_mask.unsqueeze(-1).expand(hidden_states.size())
+KeyboardInterrupt

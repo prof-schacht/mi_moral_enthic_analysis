@@ -1,0 +1,33 @@
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_setup.py:_flush():68] Configure stats pid to 1808891
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_setup.py:_flush():68] Loading settings from /proj/Alignment/probing/wandb/settings
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'train_prob_script.py', 'program': '/proj/Alignment/probing/train_prob_script.py'}
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:_log_setup():492] Logging user logs to /proj/Alignment/probing/wandb/run-20241114_213928-tz6esuje/logs/debug.log
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:_log_setup():493] Logging internal logs to /proj/Alignment/probing/wandb/run-20241114_213928-tz6esuje/logs/debug-internal.log
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:init():532] calling init triggers
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 2, 'batch_size': 32, 'model': 'gpt2-medium'}
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:init():588] starting backend
+2024-11-14 21:39:28,194 INFO    MainThread:1808891 [wandb_init.py:init():592] setting up manager
+2024-11-14 21:39:28,202 INFO    MainThread:1808891 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-14 21:39:28,203 INFO    MainThread:1808891 [wandb_init.py:init():599] backend started and connected
+2024-11-14 21:39:28,204 INFO    MainThread:1808891 [wandb_init.py:init():687] updated telemetry
+2024-11-14 21:39:28,205 INFO    MainThread:1808891 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-11-14 21:39:28,703 INFO    MainThread:1808891 [wandb_run.py:_on_init():2134] communicating current version
+2024-11-14 21:39:28,820 INFO    MainThread:1808891 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.18.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-11-14 21:39:28,820 INFO    MainThread:1808891 [wandb_init.py:init():775] starting run threads in backend
+2024-11-14 21:39:37,040 INFO    MainThread:1808891 [wandb_run.py:_console_start():2114] atexit reg
+2024-11-14 21:39:37,040 INFO    MainThread:1808891 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-11-14 21:39:37,041 INFO    MainThread:1808891 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-11-14 21:39:37,041 INFO    MainThread:1808891 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-11-14 21:39:37,043 INFO    MainThread:1808891 [wandb_init.py:init():817] run started, returning control to user process
+2024-11-15 00:02:40,017 INFO    MainThread:1808891 [wandb_run.py:_config_callback():1250] config_cb ('_wandb', 'visualize', 'confusion_matrix') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/confusion_matrix/v1', 'fieldSettings': {'Actual': 'Actual', 'Predicted': 'Predicted', 'nPredictions': 'nPredictions'}, 'stringSettings': {'title': ''}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'confusion_matrix_table'}], 'fields': []}]}]}}} None
+2024-11-15 00:02:40,691 INFO    MainThread:1808891 [wandb_run.py:_finish():1854] finishing run kdt/toxicity-probe/tz6esuje
+2024-11-15 00:02:40,692 INFO    MainThread:1808891 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2024-11-15 00:02:40,692 INFO    MainThread:1808891 [wandb_run.py:_restore():2066] restore
+2024-11-15 00:02:40,692 INFO    MainThread:1808891 [wandb_run.py:_restore():2072] restore done
+2024-11-15 00:02:48,333 INFO    MainThread:1808891 [wandb_run.py:_footer_history_summary_info():3442] rendering history
+2024-11-15 00:02:48,334 INFO    MainThread:1808891 [wandb_run.py:_footer_history_summary_info():3474] rendering summary
+2024-11-15 00:02:48,338 INFO    MainThread:1808891 [wandb_run.py:_footer_sync_info():3398] logging synced files

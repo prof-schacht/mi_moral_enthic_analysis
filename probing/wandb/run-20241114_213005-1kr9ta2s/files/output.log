@@ -1,0 +1,40 @@
+Traceback (most recent call last):
+  File "/proj/Alignment/probing/train_prob_script.py", line 314, in <module>
+    main()
+  File "/proj/Alignment/probing/train_prob_script.py", line 291, in main
+    train_toxicity_probe(model, probe, train_loader, val_loader, device, num_epochs=2)
+  File "/proj/Alignment/probing/train_prob_script.py", line 143, in train_toxicity_probe
+    logits = probe(hidden_states, attention_mask)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/proj/Alignment/probing/train_prob_script.py", line 57, in forward
+    return self.linear(combined_features)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x2048 and 1024x2)
+Traceback (most recent call last):
+  File "/proj/Alignment/probing/train_prob_script.py", line 314, in <module>
+    main()
+  File "/proj/Alignment/probing/train_prob_script.py", line 291, in main
+    train_toxicity_probe(model, probe, train_loader, val_loader, device, num_epochs=2)
+  File "/proj/Alignment/probing/train_prob_script.py", line 143, in train_toxicity_probe
+    logits = probe(hidden_states, attention_mask)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/proj/Alignment/probing/train_prob_script.py", line 57, in forward
+    return self.linear(combined_features)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1553, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/module.py", line 1562, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "/root/miniconda/envs/mech/lib/python3.10/site-packages/torch/nn/modules/linear.py", line 117, in forward
+    return F.linear(input, self.weight, self.bias)
+RuntimeError: mat1 and mat2 shapes cannot be multiplied (32x2048 and 1024x2)

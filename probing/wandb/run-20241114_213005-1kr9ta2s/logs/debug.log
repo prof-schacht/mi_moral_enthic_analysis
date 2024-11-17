@@ -1,0 +1,26 @@
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_setup.py:_flush():68] Configure stats pid to 1797476
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_setup.py:_flush():68] Loading settings from /root/.config/wandb/settings
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_setup.py:_flush():68] Loading settings from /proj/Alignment/probing/wandb/settings
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'train_prob_script.py', 'program': '/proj/Alignment/probing/train_prob_script.py'}
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:_log_setup():492] Logging user logs to /proj/Alignment/probing/wandb/run-20241114_213005-1kr9ta2s/logs/debug.log
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:_log_setup():493] Logging internal logs to /proj/Alignment/probing/wandb/run-20241114_213005-1kr9ta2s/logs/debug-internal.log
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:init():532] calling init triggers
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {'learning_rate': 0.001, 'epochs': 2, 'batch_size': 32, 'model': 'gpt2-medium'}
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:init():588] starting backend
+2024-11-14 21:30:05,039 INFO    MainThread:1797476 [wandb_init.py:init():592] setting up manager
+2024-11-14 21:30:05,053 INFO    MainThread:1797476 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-11-14 21:30:05,055 INFO    MainThread:1797476 [wandb_init.py:init():599] backend started and connected
+2024-11-14 21:30:05,056 INFO    MainThread:1797476 [wandb_init.py:init():687] updated telemetry
+2024-11-14 21:30:05,057 INFO    MainThread:1797476 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2024-11-14 21:30:05,559 INFO    MainThread:1797476 [wandb_run.py:_on_init():2134] communicating current version
+2024-11-14 21:30:05,769 INFO    MainThread:1797476 [wandb_run.py:_on_init():2143] got version response upgrade_message: "wandb version 0.18.7 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-11-14 21:30:05,769 INFO    MainThread:1797476 [wandb_init.py:init():775] starting run threads in backend
+2024-11-14 21:30:14,624 INFO    MainThread:1797476 [wandb_run.py:_console_start():2114] atexit reg
+2024-11-14 21:30:14,625 INFO    MainThread:1797476 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2024-11-14 21:30:14,625 INFO    MainThread:1797476 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2024-11-14 21:30:14,625 INFO    MainThread:1797476 [wandb_run.py:_redirect():2059] Redirects installed.
+2024-11-14 21:30:14,627 INFO    MainThread:1797476 [wandb_init.py:init():817] run started, returning control to user process
+2024-11-14 21:30:20,193 WARNING MsgRouterThr:1797476 [router.py:message_loop():77] message_loop has been closed

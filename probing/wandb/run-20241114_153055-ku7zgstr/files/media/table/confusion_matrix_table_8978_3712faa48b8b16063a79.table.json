@@ -1,0 +1,1 @@
+{"columns": ["Actual", "Predicted", "nPredictions"], "data": [["Non-toxic", "Non-toxic", 14000.0], ["Non-toxic", "Toxic", 478.0], ["Toxic", "Non-toxic", 384.0], ["Toxic", "Toxic", 1096.0]]}
